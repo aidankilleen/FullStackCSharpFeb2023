@@ -1,0 +1,30 @@
+﻿@page
+@model HelloWorldWebApp.Pages.MembersModel
+@{
+
+    string title = "Members Page!";
+
+}
+
+<h1>@title</h1>
+
+<form method="post">
+    <select asp-for="Language" asp-items="Model.Languages">
+
+    </select>
+    <br />
+    <button type="submit">Register</button>
+</form>
+
+<partial name="_MyPartial" />
+
+<p>Copyright &copy; @DateTime.Now.Year Professional Training Ltd.</p>
+
+
+@{
+    for (int i=1; i<=6; i++)
+    {
+        @Html.Raw($"<h{i}>Heading {i}</h{i}>" )
+    }
+
+}

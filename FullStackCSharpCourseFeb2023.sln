@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatementInvestigation", "TopLevelStatementInvestigation\TopLevelStatementInvestigation.csproj", "{56F98FFB-C2C1-4436-8C72-7D381BDE8636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatementInvestigation", "TopLevelStatementInvestigation\TopLevelStatementInvestigation.csproj", "{56F98FFB-C2C1-4436-8C72-7D381BDE8636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHelloWorld", "EntityFrameworkHelloWorld\EntityFrameworkHelloWorld.csproj", "{B1B8754B-A843-48DD-B83A-950C01A02E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkHelloWorld", "EntityFrameworkHelloWorld\EntityFrameworkHelloWorld.csproj", "{B1B8754B-A843-48DD-B83A-950C01A02E9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFInvestigation", "EFInvestigation\EFInvestigation.csproj", "{3DFB5368-BD16-40DE-B608-411276D75295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFInvestigationDataFirst", "EFInvestigationDataFirst\EFInvestigationDataFirst.csproj", "{5E0E4BE5-9FE1-47CE-A78D-B6EEBFC77BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerDataFirstInvestigation", "SqlServerDataFirstInvestigation\SqlServerDataFirstInvestigation.csproj", "{28B912C4-BB9B-420B-9802-071051F93101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSqlServer", "EFCodeFirstSqlServer\EFCodeFirstSqlServer.csproj", "{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWebApp", "HelloWorldWebApp\HelloWorldWebApp.csproj", "{BC4F08AE-7A4E-4DF7-AB31-19968855A187}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{B1B8754B-A843-48DD-B83A-950C01A02E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B8754B-A843-48DD-B83A-950C01A02E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B8754B-A843-48DD-B83A-950C01A02E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFB5368-BD16-40DE-B608-411276D75295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFB5368-BD16-40DE-B608-411276D75295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFB5368-BD16-40DE-B608-411276D75295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFB5368-BD16-40DE-B608-411276D75295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0E4BE5-9FE1-47CE-A78D-B6EEBFC77BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0E4BE5-9FE1-47CE-A78D-B6EEBFC77BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0E4BE5-9FE1-47CE-A78D-B6EEBFC77BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0E4BE5-9FE1-47CE-A78D-B6EEBFC77BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B912C4-BB9B-420B-9802-071051F93101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B912C4-BB9B-420B-9802-071051F93101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B912C4-BB9B-420B-9802-071051F93101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B912C4-BB9B-420B-9802-071051F93101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
