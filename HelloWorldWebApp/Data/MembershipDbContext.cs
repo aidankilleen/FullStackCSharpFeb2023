@@ -18,6 +18,7 @@ namespace HelloWorldWebApp.Data
         }
 
         public virtual DbSet<Member> Members { get; set; } = null!;
+        public virtual DbSet<Product> Products { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,6 +31,26 @@ namespace HelloWorldWebApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.Property(e => e.Category)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Description)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Filename)
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasColumnName("filename");
+
+                entity.Property(e => e.Name)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+
             OnModelCreatingPartial(modelBuilder);
         }
 
