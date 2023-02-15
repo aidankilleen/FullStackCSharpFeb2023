@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSqlServer", "EFC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWebApp", "HelloWorldWebApp\HelloWorldWebApp.csproj", "{BC4F08AE-7A4E-4DF7-AB31-19968855A187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAppInvestigation", "MVCWebAppInvestigation\MVCWebAppInvestigation.csproj", "{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC4F08AE-7A4E-4DF7-AB31-19968855A187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
