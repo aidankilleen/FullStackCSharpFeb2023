@@ -5,3 +5,31 @@
 }
 
 <h2>@ViewData["title"]</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Active</th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+
+@foreach (Member member in ViewData["members"] as List<Member>) {
+
+        <tr>
+            <td>@member.Id</td>
+            <td>@member.Name</td>
+            <td>@member.Email</td>
+            <td>@member.Active ? "Active" : "Inactive"</td>
+        </tr>
+}
+
+
+    </tbody>
+</table>

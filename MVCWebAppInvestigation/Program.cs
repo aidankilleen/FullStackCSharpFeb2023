@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using MVCWebAppInvestigation.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<MembershipDbContext>(options =>
+{
+    options.UseSqlServer(connectionString);
+});
 
 var app = builder.Build();
 

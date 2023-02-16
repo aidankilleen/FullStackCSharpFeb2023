@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWebApp", "HelloWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAppInvestigation", "MVCWebAppInvestigation\MVCWebAppInvestigation.csproj", "{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestServiceInvestigation", "RestServiceInvestigation\RestServiceInvestigation.csproj", "{354E0488-9F03-46D7-9C28-9DBBE34CBD52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationInvestigation", "AuthenticationInvestigation\AuthenticationInvestigation.csproj", "{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354E0488-9F03-46D7-9C28-9DBBE34CBD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354E0488-9F03-46D7-9C28-9DBBE34CBD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354E0488-9F03-46D7-9C28-9DBBE34CBD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354E0488-9F03-46D7-9C28-9DBBE34CBD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
