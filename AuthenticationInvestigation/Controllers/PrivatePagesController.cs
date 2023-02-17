@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Principal;
 
 namespace AuthenticationInvestigation.Controllers
 {
@@ -14,6 +16,9 @@ namespace AuthenticationInvestigation.Controllers
         [Authorize]
         public IActionResult Info()
         {
+            
+
+            ViewData["name"] = this.User.Identity.Name;
             return View();
         }
     }

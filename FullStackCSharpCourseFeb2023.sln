@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFInvestigationDataFirst", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerDataFirstInvestigation", "SqlServerDataFirstInvestigation\SqlServerDataFirstInvestigation.csproj", "{28B912C4-BB9B-420B-9802-071051F93101}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstSqlServer", "EFCodeFirstSqlServer\EFCodeFirstSqlServer.csproj", "{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCodeFirstSqlServer", "EFCodeFirstSqlServer\EFCodeFirstSqlServer.csproj", "{5BFB4870-A545-4B57-A2FB-FC7A2C9B88E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWebApp", "HelloWorldWebApp\HelloWorldWebApp.csproj", "{BC4F08AE-7A4E-4DF7-AB31-19968855A187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldWebApp", "HelloWorldWebApp\HelloWorldWebApp.csproj", "{BC4F08AE-7A4E-4DF7-AB31-19968855A187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAppInvestigation", "MVCWebAppInvestigation\MVCWebAppInvestigation.csproj", "{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCWebAppInvestigation", "MVCWebAppInvestigation\MVCWebAppInvestigation.csproj", "{FB0838EE-15F2-4B28-8C20-FFE8260F9AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestServiceInvestigation", "RestServiceInvestigation\RestServiceInvestigation.csproj", "{354E0488-9F03-46D7-9C28-9DBBE34CBD52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestServiceInvestigation", "RestServiceInvestigation\RestServiceInvestigation.csproj", "{354E0488-9F03-46D7-9C28-9DBBE34CBD52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationInvestigation", "AuthenticationInvestigation\AuthenticationInvestigation.csproj", "{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationInvestigation", "AuthenticationInvestigation\AuthenticationInvestigation.csproj", "{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLInvestigation", "GraphQLInvestigation\GraphQLInvestigation.csproj", "{D212D6CB-5803-4561-ADC5-C3FB975F6035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{384E6C8F-E674-4502-B14D-8BE6B47A7ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D212D6CB-5803-4561-ADC5-C3FB975F6035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D212D6CB-5803-4561-ADC5-C3FB975F6035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D212D6CB-5803-4561-ADC5-C3FB975F6035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D212D6CB-5803-4561-ADC5-C3FB975F6035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 using AuthenticationInvestigation.Data;
+using AuthenticationInvestigation.Middleware;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,9 +18,17 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//builder.Services.AddLogging();
+//builder.Logging.ClearProviders();
+//builder.Logging.AddConsole();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+app.Logger.LogInformation("****Application is starting");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -34,11 +43,17 @@ else
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
+
+app.UseABTestingMiddleware();
+
 
 app.UseRouting();
 
+
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(

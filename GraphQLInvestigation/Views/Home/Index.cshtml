@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <table id="tblProducts" class="table">
+
+        <thead></thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</div>
+
+@section Scripts {
+
+    <script>
+
+        var settings = {
+            "url": "https://localhost:7257/graphql",
+            "method": "POST",
+            "timeout": 0,
+            "headers": {
+                "Content-Type": "application/json",
+                "Cookie": ".AspNetCore.Antiforgery.FsUR4zZp5us=CfDJ8E_0-XlkHPhMhcC7h-mAzjs120Y3zNSx_fDqbql_8Ta3NQp0C2qmprk7pN5sZtHx-ICthDhKsyrWFbF43h89lDMCN9v35O8wgWnK7E-FsPwK6p7ryygybPooGMrJx98TEG_5o_02SMqEDl5HHA6BUqY"
+            },
+            "data": JSON.stringify({
+                query: "{\r\n    products{\r\n\r\n        id\r\n        name\r\n        description\r\n        category\r\n    }\r\n}",
+                variables: {}
+            })
+        };
+
+        $.ajax(settings).done(function (response) {
+            for (let product of response.data.products) {
+
+                $('#tblProducts tbody').append(`<tr>
+                    <td>${product.id}</td>
+                    <td>${product.name}</td>
+                    <td>${product.description}</td>
+                    <td>${product.category}</td>
+                    </tr>`)
+            }
+        });
+    </script>
+}
